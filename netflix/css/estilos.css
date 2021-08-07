@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    width: 100%;
+    background-image: url(../imagenes/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+}
+
+.contenedor nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    vertical-align: top;
+    margin: 0px 0px;
+}
+
+.contenedor nav img {
+    width: 145px;
+    margin: 0px 40px;
+    
+}
+
+.contenedor nav .derecha {
+    margin: 40px 30px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.contenedor nav .derecha select {
+    border :2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+.contenedor nav .derecha .iniciar {
+    color: #fff;
+    text-decoration: none;
+    background: #e82c04;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+    
+}
+
+.contenedor .informacion {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+
+.contenedor .informacion h2 {
+    color :#fff;
+    font-size: 48px;
+    text-align: center;
+}
+
+.contenedor .informacion p {
+    color:#fff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor .email {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 35px;
+
+}
+
+.contenedor .email p {
+    color: #fff;
+    text-align: center;
+    font-size:18px;
+    margin-bottom: 20px;;
+}
+
+.contenedor .email .busqueda {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.contenedor .email .busqueda input[type=text] {
+    font-size: 15px;
+    padding: 17px 10px;
+    width: 400px;
+}
+
+.contenedor .email .busqueda .boton {
+    color: #fff;
+    background-color: #e82c04;
+    line-height: 56px;
+    text-align: center;
+    width: 160px;
+    font-size: 25px;
+    padding: 0px 1px;
+
+}
+
+.contenedor .email .busqueda .boton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
