@@ -8,10 +8,21 @@
     background-image: url(../imagenes/background.jpg);
     background-repeat: no-repeat;
     background-attachment:scroll;
+    background-size: cover;
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: 750px;
+    height: 60%;
 }
+
+.contenedor::before {
+    content:"";
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.37);
+    width: 100%;
+    height: 100%;
+}
+
 
 .contenedor nav {
     display: flex;
@@ -20,6 +31,7 @@
     width: 100%;
     vertical-align: top;
     margin: 0px 0px;
+    position: relative;
 }
 
 .contenedor nav img {
@@ -47,7 +59,7 @@
 .contenedor nav .derecha .iniciar {
     color: #fff;
     text-decoration: none;
-    background: #e82c04;
+    background: #E50914;
     padding: 10px 10px;
     border-radius: 5px;
 
@@ -58,6 +70,7 @@
     width: 70%;
     margin: 0 auto;
     margin-top: 120px;
+    position: relative;
 
 }
 
@@ -65,6 +78,7 @@
     color :#fff;
     font-size: 48px;
     text-align: center;
+   
 }
 
 .contenedor .informacion p {
@@ -72,12 +86,15 @@
     font-size: 25px;
     text-align: center;
     margin-top: 20px;
+    
 }
 
 .contenedor .email {
     width: 85%;
     margin: 0 auto;
     margin-top: 35px;
+    position: relative;
+    
 
 }
 
@@ -93,6 +110,7 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    margin-bottom: 150px;
     justify-content: center;
 }
 
@@ -104,12 +122,12 @@
 
 .contenedor .email .busqueda .boton {
     color: #fff;
-    background-color: #e82c04;
+    background-color: #E50914;
     line-height: 56px;
     text-align: center;
-    width: 160px;
+    width: 30%;
     font-size: 25px;
-    padding: 0px 1px;
+    padding: 0px 5px;
 
 }
 
