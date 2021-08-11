@@ -12,7 +12,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 100%;
 }
 
 .contenedor::before {
@@ -41,11 +41,11 @@
 }
 
 .contenedor nav .derecha {
-    margin: 40px 30px;;
+    margin: 40px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 25%;
+    width: 28%;
 }
 
 .contenedor nav .derecha select {
@@ -54,6 +54,8 @@
     color: #fff;
     padding: 5px 5px;
     box-sizing: border-box;
+    font-size: 15px;
+   
 }
 
 .contenedor nav .derecha .iniciar {
@@ -62,6 +64,7 @@
     background: #E50914;
     padding: 10px 10px;
     border-radius: 5px;
+    font-size: 15px;
 
     
 }
@@ -76,7 +79,7 @@
 
 .contenedor .informacion h2 {
     color :#fff;
-    font-size: 48px;
+    font-size: 43px;
     text-align: center;
    
 }
